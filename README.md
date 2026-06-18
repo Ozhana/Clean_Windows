@@ -14,8 +14,7 @@ cat << 'EOF' > README.md
 | | |
 | **Fetch the Script** | **Betiği İndirme** |
 | Open PowerShell **as Administrator** and run: | **Yönetici olarak** PowerShell'i açın ve şunu çalıştırın: |
-| <code>Invoke-WebRequest -Uri "https://raw.githubusercontent.com/your-repo/Win11_Armor/main/Win11_Armor_V25.ps1" -OutFile "$env:USERPROFILE\Desktop\Win11_Armor_V25.ps1"</code> | <code>Invoke-WebRequest -Uri "https://raw.githubusercontent.com/your-repo/Win11_Armor/main/Win11_Armor_V25.ps1" -OutFile "$env:USERPROFILE\Desktop\Win11_Armor_V25.ps1"</code> |
-| *Replace the URL with your actual repository link.* | *URL'yi kendi depo bağlantınızla değiştirin.* |
+| <code>Invoke-WebRequest -Uri "https://github.com/Ozhana/Clean_Windows/blob/main/ps1" -OutFile "$env:USERPROFILE\Desktop\Win11_Armor_V25.ps1"</code> | <code>Invoke-WebRequest -Uri "https://github.com/Ozhana/Clean_Windows/blob/main/ps1" -OutFile "$env:USERPROFILE\Desktop\Win11_Armor_V25.ps1"</code> |
 | | |
 | **Set Permissions** | **Yetkilendirme** |
 | Since the script modifies system settings, you must run it with elevated rights. Also, ensure PowerShell's execution policy allows scripts: | Betik sistem ayarlarını değiştirdiği için yükseltilmiş haklarla çalıştırılmalıdır. Ayrıca PowerShell yürütme politikasının betiklere izin verdiğinden emin olun: |
